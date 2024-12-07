@@ -24,15 +24,19 @@ export class UsersService {
     return users;
   }
 
-  findOne(id: string) {
-    return this.userRepository.findOneBy({ id });
+  async findOneByUsername( username: string){
+    return await this.userRepository.findOneBy({username});
   }
 
-  update(id: string, updateUserDto: UpdateUserDto) {
-    return this.userRepository.update({ id }, updateUserDto);
+  async findOne(id: string) {
+    return await this.userRepository.findOneBy({ id });
   }
 
-  delete(id: string) {
-    return this.userRepository.delete({ id });
+  async update(id: string, updateUserDto: UpdateUserDto) {
+    return await this.userRepository.update({ id }, updateUserDto);
+  }
+
+  async delete(id: string) {
+    return await this.userRepository.delete({ id });
   }
 }
