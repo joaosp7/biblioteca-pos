@@ -1,6 +1,6 @@
 import { DataSource, DataSourceOptions } from "typeorm";
 
-export const dataSourceOptions:DataSourceOptions = {
+export const dataSourceOptions: DataSourceOptions = {
   type: 'postgres',
   host: 'localhost',
   port: 5432,
