@@ -21,7 +21,7 @@
 
 ## Description
 
-Repo made for a library with the technology of Nest.Js for the Postgraduate course of Full Stack Developement on FIAP. I've decided to use Nest.Js since I was studying this framework at work. It's integrated with TypeORM, there is no .env file since I don't use any sensible data and this repo have educational purposes only. Also, there is configuration for a Postgres docker container under the "docker-compose.yaml" file. 
+Repo made for a library with the technology of Nest.Js for the Postgraduate course of Full Stack Developement on FIAP. I've decided to use Nest.Js since I was studying this framework at work. It's integrated with TypeORM, there is no .env file since I don't use any sensible data and this repo have educational purposes only. Also, there is configuration for a Postgres docker container under the "docker-compose.yaml" file. The main ideia was only to create a simple CRUD using Nest.Js and implement Jwt Authentication since I use this at work, for studies purposes. The original ideia was to implement CRUD in any way, so I joined with works ideias and got this repo! Hope this material helps someone who is in the beginning of the experience with Dependency Injection frameworks such as Nest, good luck!
 
 ```bash
 $ yarn install
